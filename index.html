@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@463&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Embrace SideBoard</title>
+
+</head>
+<!--imagepart(LHS)-->
+<body>
+
+    <div class="images">
+
+        <div class="large">
+            <img class="Limg" src="img1.jpeg" alt="image">
+        </div>
+
+         <div class="small"> 
+                <img class="img" src="img1.jpeg" alt="image">
+                <img class="img" src="img2.webp" alt="image">
+                <img class="img"src="img3.webp" alt="image">
+                <img class="img"src="img4.webp" alt="image">
+        </div>
+
+    </div>
+
+<!--textpart(RHS)-->
+
+<div class="textpart">
+     <div class="text">
+        <p class="company-name ">Marmeto</p>
+        <h2 class="emb-sid">Embrace SideBoard</h2>
+        <hr class="division1">
+        <h2 class="price"><b>$12999.00</b></h1> <p class="discount">35% off</p>
+        <h1>$19999</h1>
+        <hr class="cut">
+        <hr class="division2">
+        <p class="colour">Choose a colour</p>
+        <hr class="division3">
+        <p class="size">Choose a size</p>
+ 
+    </div>
+    
+
+
+<!--colourbox-->
+<div class="wrapper">
+    <div class="container">
+    <label class="option_item">
+      <input type="checkbox" class="checkbox">
+      <div class="option_inner yellow" id="yellow">
+        <div class="tickmark"></div>
+        <div class="icon"><i class="fab y-ye"></i></div>
+        <div class="name"></div>
+      </div>
+    </label>
+    <label class="option_item">
+      <input type="checkbox" class="checkbox" >
+      <div class="option_inner green" id="green">
+        <div class="tickmark"></div>
+        <div class="icon"><i class="fab g-ge"></i></div>
+        <div class="name"></div>
+      </div>
+    </label>
+    <label class="option_item">
+      <input type="checkbox" class="checkbox">
+      <div class="option_inner blue" id="blue">
+        <div class="tickmark"></div>
+        <div class="icon"><i class="fab b-blu"></i></div>
+        <div class="name"></div>
+      </div>
+    </label>
+    <label class="option_item">
+      <input type="checkbox" class="checkbox" >
+      <div class="option_inner pink" id="pink">
+        <div class="tickmark"></div>
+        <div class="icon"><i class="fab p-pi"></i></div>
+        <div class="name"></div>
+      </div>
+    </label>   
+  </div>
+</div>
+
+<div class="radio-container">
+    <input class="radio-input" id="small" type="radio" />
+    <label class="radio" >Small</label>
+    <input class="radio-input" id="medium" type="radio" />
+    <label class="radio">Medium</label>
+    <input class="radio-input" id="large" type="radio" />
+    <label class="radio">Large</label>
+    <input class="radio-input" id="ExtraLarge" type="radio"/>
+    <label class="radio">XL</label>
+    <input class="radio-input" id="XXL" type="radio"/>
+    <label class="radio">XXL</label>
+  </div>
+
+  <div class="quantity">
+    <button class="minus" aria-label="Decrease">&minus;</button>
+    <input type="number" class="input-box" value="1" min="1" max="10">
+    <button class="plus" aria-label="Increase">&plus;</button>
+  </div>
+
+ <div class="cart">
+  <button class="cartButton" onclick='toggle()'>Add To Cart</button>
+  
+ </div>
+ <div class="message"> 
+</div>  
+
+  <hr class="division4">
+
+  <p class="discription">The Embrace Sideboard is a stylish wear. With a top cloth <br>designed to provide superior protection and look great, this<br> storage solution is both functional and attractive. It fits<br>seamlessly into any home decor, with clean lines and a <br>timeless look. Crafted from premium materials for a <br>combination of style, durability, and reliability</p>
+</div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
